@@ -11,3 +11,12 @@ while (x > 0):
     x -= 1
 else:
     print("bye")
+
+
+for i in range(5):
+    print(i)
+    for j in range(5):
+        print(j)
+        if j == 2:
+            break
+
